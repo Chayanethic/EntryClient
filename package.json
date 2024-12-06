@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite", 
-    "build": "tailwindcss build -i ./src/input.css -o ./dist/output.css --verbose",
+    "build": "vite build",
     "start": "vite preview" 
   },
   "dependencies": {
