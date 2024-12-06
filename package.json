@@ -4,10 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "vite", // or your development command
+    "build": "tailwindcss build -i ./src/input.css -o ./dist/output.css --verbose",
+    "start": "vite preview" // or your start command
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.0",
